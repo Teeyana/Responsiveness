@@ -1,0 +1,190 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+    
+}
+input{
+        width: 80%; 
+        padding: 7px;
+        margin: 5px;  
+        font-size: 20px;   
+        border-radius: 5px; 
+}
+#button{
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-color: rgb(126, 229, 183);
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 100px;
+      
+}
+#form-group{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 60px;
+    
+
+}
+.form{
+    background-color: gray;
+    width: 100%;
+    margin: 30px;
+    color: rgb(243, 235, 235);
+    
+    
+}
+.container{
+    display: flex;
+    background: url(./images/cleaning.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    justify-content: center;
+    width: 80vw;
+    color: rgb(4, 9, 33);
+    font-size: 20px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+#van{
+    margin: 50px;
+    padding: 50px;
+
+}
+.icon{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding: 30px;
+    /* text-align: center; */
+}
+
+.calender{
+     
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    /* padding: 20px; */
+    /* text-align: center; */
+    
+    
+}
+.dollar{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    /* padding: 20px; */
+    /* text-align: center; */
+}
+
+.clients{
+    width: 80vw;
+    text-align: center;
+    background-color: gray;
+    font-size: 1.5rem;
+    /* padding: 50px; */
+    margin: auto;
+    padding: 30px;
+    /* max-width: 100%; */
+
+}
+
+#pictures{
+    display: flex;
+    
+}
+.sweet-boy{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+
+#jon{
+
+
+    width: 50%; 
+    /* height: 40%; */
+    
+ } 
+
+ #ana{
+    float: right;
+
+} 
+#footer{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+@media (max-width:1000px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .icon{
+        display: flex;
+    
+        font-size: 0.7rem;
+        justify-content: center;
+    }
+    .sweet-boy{
+        
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+
+    #pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #button{
+        font-size: 1.6rem;
+    }
+    
+
+    }
+    
+
+
+
+    
+
+
+
+
+
+
+
+
